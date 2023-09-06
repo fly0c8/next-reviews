@@ -1,9 +1,10 @@
 import './globals.css';
 import NavBar from "../components/NavBar";
+import { orbitron, exo2 } from './fonts';
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html lang="en" className={`${orbitron.variable} ${exo2.variable}`}>
             <body className="flex flex-col min-h-screen px-4 py-4 bg-orange-50">
                 <header>
                     <NavBar />
